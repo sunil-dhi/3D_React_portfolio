@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+
   
   export const navLinks = [
     {
@@ -72,10 +73,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -108,158 +106,125 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Front-End Developer",
+      company_name: "Yukt Softwares",
+      icon: meta,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2022 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained web applications using React.js and other related technologies.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implemented responsive design and ensuring cross-browser compatibility.",
+        "Participated in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Software Engineer",
+      company_name: "Antixo Global",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2019 - June 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Forged comprehensive source code review, resulting in a reduction of up to 25% in software defects.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented and utilized memoization, Lazy loading to prevent re-render and resulting in 15% reduction of load times",
+         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+ 
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, add to cart, and manage clothing product from various p",
       tags: [
         {
-          name: "react",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Material-UI",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Styled Components",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sunil-dhi/EcommerceFrontend",
     },
     {
-      name: "Job IT",
+      name: "Intuituve Quiz App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " A single page Web application that enables users to play quiz with more than 20 categories with advanced functionality using Material-UI",
       tags: [
         {
-          name: "react",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Css3",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Material-UI",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sunil-dhi/ReactJs_Quiz-App"
     },
     {
-      name: "Trip Guide",
+      name: "Food Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive food blog web application with implementation of Html, Css, Reactjs with lots of food types and categories with contact form",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "TailwindCSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "React-router",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/sunil-dhi/React-Food-App"
+    },
+    {
+      name: "Personal Portfolio ",
+      description:
+        "A comprehensive Personal portfolio illustrating my skills, work experience and projects completed with contact form implemented using form.io",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Smooth-scroll",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/sunil-dhi/ReactPPortfolioUpdated"
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
