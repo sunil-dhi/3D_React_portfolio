@@ -1,6 +1,4 @@
-// cbCmD2z-8cQPxOLoM
-// template_ttc7w9s
-// service_iq9v8dg
+
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
